@@ -17,6 +17,8 @@ void grow(Array<T>* arr, int increment) {
     }
 }
 
+
+
 template<typename T>
 void Array<T>::push(const T& value) {
     grow(this, 1);
